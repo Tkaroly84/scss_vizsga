@@ -1,0 +1,76 @@
+$bg: #dcb499;
+$padding:15px;
+$txtcolor:#fff;
+$boxShadow: bottom;
+$fontSize: 15px;
+$background:#c0997f;
+$margin: 20px 0;
+
+body{
+    background-color: 000;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg;
+    backdrop-filter: blur(12px);
+    position:  sticky;
+    box-shadow: $boxShadow;
+    padding: $padding;
+}
+.menu-items{
+    font-weight: 400;
+    color: #020202;
+    :hover{
+        color:#f3f3f3;
+        text-shadow: $boxShadow;
+        font-size: $fontSize;
+    }
+}
+.container{
+    background-color: $bg;
+    width: 1320px;
+    margin: $margin;
+    padding: $padding;
+    .title{
+        color: $txtcolor;
+        font-size: h2;
+        padding: $padding;
+    }
+    .textBox{
+        display: flex;
+        text-align: center;
+        padding: $padding;
+        box-shadow: $boxShadow;
+        color:$txtcolor;
+        font-size: $fontSize;
+        background-color: $background;
+        img{
+            width: 300px;
+            height: 220px;
+        }
+    }
+    form{
+        align-items: center;
+        padding: $padding;
+        box-shadow: $boxShadow;
+        color:$txtcolor ;
+        font-size: $fontSize;
+        background-color: $background;
+        margin: $margin;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: $padding;
+    box-shadow: $boxShadow;
+    color:$txtcolor;
+    font-size: $fontSize;
+    background-color: $bg;
+    margin: $margin;
+}
